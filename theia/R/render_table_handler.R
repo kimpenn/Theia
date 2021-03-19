@@ -24,12 +24,16 @@ update_table_handler <-
     the_table <-
       metadata_table[, colnames(metadata_table) %in% col_selected]
     renderDataTable({
-      datatable(the_table, extensions = 'FixedColumns',
-                options = list(
-                  autoWidth = TRUE,
-                  # dom = 'ft',
-                  # scrollX = TRUE,
-                  fixedColumns = list(leftColumns = 2)
-                ))
+      datatable(
+        the_table,
+        extensions = c('FixedColumns', 'Scroller'),
+        options = list(
+          autoWidth = FALSE,
+          # dom = 'ft',
+          scroller = TRUE,
+          scrollX = TRUE,
+          fixedColumns = list(leftColumns = 2)
+        )
+      )
     })
   }
