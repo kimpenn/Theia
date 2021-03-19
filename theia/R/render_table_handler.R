@@ -28,7 +28,7 @@ update_table_handler <-
                 options = list(
                   autoWidth = TRUE,
                   # dom = 'ft',
-                  scrollX = TRUE,
+                  # scrollX = TRUE,
                   fixedColumns = list(leftColumns = 2)
                 ))
     })
