@@ -1,0 +1,313 @@
+Field,level-1,level-2,level-3
+Lane,exp-info,,
+BarcodeIdx,exp-info,,
+Project,exp-info,,
+Harvest By,exp-info,,
+Harvest Date,exp-info,,
+Harvest Time,exp-info,,
+First Strand Amp By,exp-info,,
+First Strand Amp Date,exp-info,,
+Amplified By,exp-info,,
+Amplified Date,exp-info,,
+Library By,exp-info,,
+Library Date,exp-info,,
+Species,exp-info,,
+Strain,exp-info,,
+Strain Other,exp-info,,
+Age Harvested Unit,exp-info,,
+Age Harvested Unit Other,exp-info,,
+Age Harvested Value,exp-info,,
+Age Culture,exp-info,,
+Harvest Method,exp-info,,
+Harvest Quant,exp-info,,
+Harvest Compound,exp-info,,
+Is Harvest Compound Uncaged,exp-info,,
+Region,exp-info,,
+Subregion,exp-info,,
+Subregion Other,exp-info,,
+Cell Class,exp-info,,
+Cell Class Other,exp-info,,
+Cell Type,exp-info,,
+Cell Type Other,exp-info,,
+Supplier,exp-info,,
+Source Type,exp-info,,
+Source Unit,exp-info,,
+Source Unit Other,exp-info,,
+Source Region,exp-info,,
+Source Region Other,exp-info,,
+Patient ID,exp-info,,
+Cell ID,exp-info,,
+Dendrite ID,exp-info,,
+Source Well ID,exp-info,,
+Treatment,exp-info,,
+Replicate,exp-info,,
+Source Amplification Method,exp-info,,
+Source Amplification Rounds,exp-info,,
+First Sequencing Barcode,exp-info,,
+Second Sequencing Barcode,exp-info,,
+Non-Sequencing Barcode,exp-info,,
+Spike-In Type,exp-info,,
+Spike-In Dilution,exp-info,,
+Library Input Amount,exp-info,,
+Library Kit,exp-info,,
+Strand Specific,exp-info,,
+Library Const PCR Cycles,exp-info,,
+Amplification Protocol,exp-info,,
+Library Protocol,exp-info,,
+Analysis Protocol,exp-info,,
+Contaminants File,exp-info,,
+dbGaP Release,exp-info,,
+SRA ID,exp-info,,
+Notes,exp-info,,
+pipeline,STAR,Parameters,
+STAR.star.version,STAR,Parameters,
+STAR.samtools.version,STAR,Parameters,
+STAR.species (genome),STAR,Parameters,
+STAR.SE,STAR,Parameters,
+STAR.readLength,STAR,Parameters,
+STAR.Tot Reads After Trim,STAR,Parameters,
+STAR.Avg Inp Read Len,STAR,Parameters,
+STAR.Avg Uniq Map Len,STAR,Parameters,
+STAR.Perc Bases Mismatched,STAR,Result,
+STAR.Uniq-mapped Reads,STAR,Result,
+STAR.Total-mapped Reads,STAR,Result,
+STAR.Uniq-mapped Perc,STAR,Result,
+STAR.Multi-mapped Perc,STAR,Result,
+STAR.Not-mapped Perc,STAR,Result,
+VERSE.verse.version,VERSE,Parameters,
+VERSE.transcriptome,VERSE,Parameters,
+VERSE.stranded,VERSE,Parameters,
+VERSE.ID_attribute,VERSE,Parameters,
+VERSE.introns,VERSE,Parameters,
+VERSE.intergenic,VERSE,Parameters,
+VERSE.lines-sines,VERSE,Parameters,
+"VERSE.exons Level 1,2: non-SpikeIn Reads Counted",VERSE,Result,exons
+"VERSE.exons Level 1,2: SpikeIn Reads Counted",VERSE,Result,exons
+"VERSE.exons Level 1,2: Num Genes",VERSE,Result,exons
+"VERSE.exons Level 1,2: Avg Read Per Gene",VERSE,Result,exons
+"VERSE.exons Level 1,2: Max Reads Per Gene",VERSE,Result,exons
+"VERSE.exons Level 1,2: Ambiguous Mapped",VERSE,Result,exons
+VERSE.exons Level 3: Reads Counted,VERSE,Result,exons
+VERSE.exons Level 3: Num Genes,VERSE,Result,exons
+VERSE.exons Level 3: Avg Read Per Gene,VERSE,Result,exons
+VERSE.exons Level 3: Max Reads Per Gene,VERSE,Result,exons
+VERSE.exons Level 3: Ambiguous Mapped,VERSE,Result,exons
+VERSE.anti-exons: non-spikeIn Reads Counted,VERSE,Result,anti-exons
+VERSE.anti-exons: spikeIn Reads Counted,VERSE,Result,anti-exons
+VERSE.anti-exons: Reads Counted,VERSE,Result,anti-exons
+VERSE.anti-exons: Num Genes,VERSE,Result,anti-exons
+VERSE.anti-exons: Avg Read Per Gene,VERSE,Result,anti-exons
+VERSE.anti-exons: Max Reads Per Gene,VERSE,Result,anti-exons
+VERSE.anti-exons: Ambiguous Mapped,VERSE,Result,anti-exons
+"VERSE.introns Level 1,2: Reads Counted",VERSE,Result,introns
+"VERSE.introns Level 1,2: Num Genes",VERSE,Result,introns
+"VERSE.introns Level 1,2: Avg Read Per Gene",VERSE,Result,introns
+"VERSE.introns Level 1,2: Max Reads Per Gene",VERSE,Result,introns
+"VERSE.introns Level 1,2: Ambiguous Mapped",VERSE,Result,introns
+VERSE.introns Level 3: Reads Counted,VERSE,Result,introns
+VERSE.introns Level 3: Num Genes,VERSE,Result,introns
+VERSE.introns Level 3: Avg Read Per Gene,VERSE,Result,introns
+VERSE.introns Level 3: Max Reads Per Gene,VERSE,Result,introns
+VERSE.introns Level 3: Ambiguous Mapped,VERSE,Result,introns
+VERSE.anti-introns: Reads Counted,VERSE,Result,anti-introns
+VERSE.anti-introns: Num Genes,VERSE,Result,anti-introns
+VERSE.anti-introns: Avg Read Per Gene,VERSE,Result,anti-introns
+VERSE.anti-introns: Max Reads Per Gene,VERSE,Result,anti-introns
+VERSE.anti-introns: Ambiguous Mapped,VERSE,Result,anti-introns
+VERSE.mito: Reads Counted,VERSE,Result,mito
+VERSE.mito: Num Genes,VERSE,Result,mito
+VERSE.mito: Avg Read Per Gene,VERSE,Result,mito
+VERSE.mito: Max Reads Per Gene,VERSE,Result,mito
+VERSE.mito: Ambiguous Mapped,VERSE,Result,anti-mito
+VERSE.anti-mito: Reads Counted,VERSE,Result,anti-mito
+VERSE.anti-mito: Num Genes,VERSE,Result,anti-mito
+VERSE.anti-mito: Avg Read Per Gene,VERSE,Result,anti-mito
+VERSE.anti-mito: Max Reads Per Gene,VERSE,Result,anti-mito
+VERSE.anti-mito: Ambiguous Mapped,VERSE,Result,anti-mito
+VERSE.Intergenic: Reads Counted,VERSE,Result,Intergenic
+VERSE.Intergenic: Num Regions,VERSE,Result,Intergenic
+VERSE.Intergenic: Avg Read Per Region,VERSE,Result,Intergenic
+VERSE.Intergenic: Max Reads Per Region,VERSE,Result,Intergenic
+VERSE.Intergenic: Ambiguous Mapped,VERSE,Result,Intergenic
+VERSE.LINE Reads,VERSE,Result,misc.
+VERSE.SINE Reads,VERSE,Result,misc.
+VERSE.Num LINEs,VERSE,Result,misc.
+VERSE.Num SINEs,VERSE,Result,misc.
+VERSE.Neither LINEs nor SINEs,VERSE,Result,misc.
+VERSE.No Feature,VERSE,Result,misc.
+VERSE.Reads Missing Mates,VERSE,Result,misc.
+"VERSE.Perc: Exons Level 1,2",VERSE,Result,Perc
+VERSE.Perc: Exons Level 3,VERSE,Result,Perc
+VERSE.Perc: Anti-Exons,VERSE,Result,Perc
+"VERSE.Perc: Introns Level 1,2",VERSE,Result,Perc
+VERSE.Perc: Introns Level 3,VERSE,Result,Perc
+VERSE.Perc: Anti-Introns,VERSE,Result,Perc
+VERSE.Perc: Mito,VERSE,Result,Perc
+VERSE.Perc: Anti-Mito,VERSE,Result,Perc
+VERSE.Perc: Intergenic,VERSE,Result,Perc
+VERSE.Perc: Spike-In,VERSE,Result,Perc
+BLAST.blastn.version,BLAST,Parameters,
+BLAST.parseBlast.py.version,BLAST,Parameters,
+BLAST.species,BLAST,Parameters,
+BLAST.readLength,BLAST,Parameters,
+BLAST.numReads,BLAST,Parameters,
+BLAST.kmer,BLAST,Parameters,
+BLAST.Total Hits,BLAST,Result,
+BLAST.Hits Not Counted,BLAST,Result,
+BLAST.Perc Hits Not Target or SpikeIn,BLAST,Result,
+BLAST.Bacteria,BLAST,Result,
+BLAST.Danio,BLAST,Result,
+BLAST.Fly,BLAST,Result,
+BLAST.Human,BLAST,Result,
+BLAST.Mouse,BLAST,Result,
+BLAST.Rat,BLAST,Result,
+BLAST.Yeast,BLAST,Result,
+BLAST.Carp,BLAST,Result,
+BLAST.ERCC,BLAST,Result,
+BLAST.PhiX,BLAST,Result,
+BLAST.TATAGTGAGT,BLAST,Result,
+BLAST.Perc Counted,BLAST,Result,
+TRIM.trimReads.py.version,TRIM,,
+TRIM.minLen,TRIM,,
+TRIM.phredThresh,TRIM,,
+TRIM.removeN,TRIM,,
+TRIM.numAT,TRIM,,
+TRIM.SE,TRIM,,
+TRIM.ContamFile,TRIM,,
+TRIM.nTotalReadsBeforeTrim,TRIM,,
+TRIM.nBothTrimmed,TRIM,,
+TRIM.nFirstTrimmed,TRIM,,
+TRIM.nSecondTrimmed,TRIM,,
+TRIM.nBothDiscarded,TRIM,,
+TRIM.nFirstDiscarded,TRIM,,
+TRIM.nSecondDiscarded,TRIM,,
+TRIM.Phred Threshold (first),TRIM,,
+TRIM.Phred Threshold (second),TRIM,,
+TRIM.removed5N (first),TRIM,,
+TRIM.removed5N (second),TRIM,,
+TRIM.removed3N (first),TRIM,,
+TRIM.removed3N (second),TRIM,,
+TRIM.init3G (first),TRIM,,
+TRIM.init3G (second),TRIM,,
+TRIM.indexAdapter (first),TRIM,,
+TRIM.indexAdapter (second),TRIM,,
+TRIM.univAdapterRC (first),TRIM,,
+TRIM.univAdapterRC (second),TRIM,,
+TRIM.aRNAPrimer (first),TRIM,,
+TRIM.aRNAPrimer (second),TRIM,,
+TRIM.aRNAPrimerRC (first),TRIM,,
+TRIM.aRNAPrimerRC (second),TRIM,,
+TRIM.tivaXoligo (first),TRIM,,
+TRIM.tivaXoligo (second),TRIM,,
+TRIM.tivaXoligoRC (first),TRIM,,
+TRIM.tivaXoligoRC (second),TRIM,,
+TRIM.dT5oligo (first),TRIM,,
+TRIM.dT5oligo (second),TRIM,,
+TRIM.dT5oligoRC (first),TRIM,,
+TRIM.dT5oligoRC (second),TRIM,,
+TRIM.dT6oligo (first),TRIM,,
+TRIM.dT6oligo (second),TRIM,,
+TRIM.dT6oligoRC (first),TRIM,,
+TRIM.dT6oligoRC (second),TRIM,,
+TRIM.NexteraRead1ExternalAdapter (first),TRIM,,
+TRIM.NexteraRead1ExternalAdapter (second),TRIM,,
+TRIM.NexteraRead2ExternalAdapter (first),TRIM,,
+TRIM.NexteraRead2ExternalAdapter (second),TRIM,,
+TRIM.ChexPolyCprimerRC (first),TRIM,,
+TRIM.ChexPolyCprimerRC (second),TRIM,,
+TRIM.istT7primerRC (first),TRIM,,
+TRIM.istT7primerRC (second),TRIM,,
+TRIM.NexteraTransposaseAdapterR1 (first),TRIM,,
+TRIM.NexteraTransposaseAdapterR1 (second),TRIM,,
+TRIM.NexteraTransposaseAdapterR1RC (first),TRIM,,
+TRIM.NexteraTransposaseAdapterR1RC (second),TRIM,,
+TRIM.NexteraTransposaseAdapterR2 (first),TRIM,,
+TRIM.NexteraTransposaseAdapterR2 (second),TRIM,,
+TRIM.NexteraTransposaseAdapterR2RC (first),TRIM,,
+TRIM.NexteraTransposaseAdapterR2RC (second),TRIM,,
+TRIM.NexteraTransposonEndSequence (first),TRIM,,
+TRIM.NexteraTransposonEndSequence (second),TRIM,,
+TRIM.NexteraTransposonEndSequenceRC (first),TRIM,,
+TRIM.NexteraTransposonEndSequenceRC (second),TRIM,,
+TRIM.SmartSeqTSO (first),TRIM,,
+TRIM.SmartSeqTSO (second),TRIM,,
+TRIM.SmartSeqTSORC (first),TRIM,,
+TRIM.SmartSeqTSORC (second),TRIM,,
+TRIM.SmartSeqOligo (first),TRIM,,
+TRIM.SmartSeqOligo (second),TRIM,,
+TRIM.SmartSeqOligoRC (first),TRIM,,
+TRIM.SmartSeqOligoRC (second),TRIM,,
+TRIM.5 polyT (first),TRIM,,
+TRIM.5 polyT (second),TRIM,,
+TRIM.3 polyA (first),TRIM,,
+TRIM.3 polyA (second),TRIM,,
+TRIM.removed5A (first),TRIM,,
+TRIM.removed5A (second),TRIM,,
+TRIM.removed3A (first),TRIM,,
+TRIM.removed3A (second),TRIM,,
+TRIM.removed5T (first),TRIM,,
+TRIM.removed5T (second),TRIM,,
+TRIM.removed3T (first),TRIM,,
+TRIM.removed3T (second),TRIM,,
+TRIM.removed5C (first),TRIM,,
+TRIM.removed5C (second),TRIM,,
+TRIM.removed3C (first),TRIM,,
+TRIM.removed3C (second),TRIM,,
+TRIM.removed5G (first),TRIM,,
+TRIM.removed5G (second),TRIM,,
+TRIM.removed3G (first),TRIM,,
+TRIM.removed3G (second),TRIM,,
+RMDUP.removeDuplicates.py.version,MISC.,,
+RMDUP.nInitialReadPairs,MISC.,,
+RMDUP.nUniqueReadPairs,MISC.,,
+RMDUP.nDuplicatesFound,MISC.,,
+RMDUP.nReadsWithDuplicates,MISC.,,
+RMDUP.maxDuplicateCount,MISC.,,
+GMAP.gmap.version,MISC.,,
+GMAP.samtools.version,MISC.,,
+GMAP.species (genome),MISC.,,
+GMAP.SE,MISC.,,
+GMAP.readLength,MISC.,,
+GMAP.Reads After Trim,MISC.,,
+GMAP.Reads Mapped,MISC.,,
+GMAP.Uniq Reads,MISC.,,
+GMAP.Mismatches,MISC.,,
+GMAP.Bases Mapped,MISC.,,
+GMAP.Avg Read Length,MISC.,,
+GMAP.Max Read Length,MISC.,,
+BARCODE.kmerFind.py.version,MISC.,,
+BARCODE.barcode,MISC.,,
+BARCODE.prefix,MISC.,,
+BARCODE.suffix,MISC.,,
+BARCODE.cut,MISC.,,
+BARCODE.SE,MISC.,,
+BARCODE.R1_threshold,MISC.,,
+BARCODE.R2_threshold,MISC.,,
+BARCODE.nTotalReadsBeforeMapping,MISC.,,
+BARCODE.totalBothMapped,MISC.,,
+BARCODE.totalFirstMapped,MISC.,,
+BARCODE.totalSecondMapped,MISC.,,
+BARCODE.firstKmer,MISC.,,
+BARCODE.firstRC,MISC.,,
+BARCODE.secondKmer,MISC.,,
+BARCODE.secondRC,MISC.,,
+BARCODE.avgPosFirst,MISC.,,
+BARCODE.avgPosSecond,MISC.,,
+BARCODE.avgPosFirstForward,MISC.,,
+BARCODE.avgPosFirstReverse,MISC.,,
+BARCODE.avgPosSecondForward,MISC.,,
+BARCODE.avgPosSecondReverse,MISC.,,
+Experiment Name,exp-info,,
+Description,exp-info,,
+Investigators,exp-info,,
+External Lab,exp-info,,
+Submitted Date,exp-info,,
+Machine Manufacturer,exp-info,,
+Model,exp-info,,
+Sequencing Kit,exp-info,,
+Read Length,exp-info,,
+Paired,exp-info,,
+Facility,exp-info,,
+Facility ID,exp-info,,
+Processing,exp-info,,
+Notes-1,exp-info,,

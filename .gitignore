@@ -1,0 +1,20 @@
+rsconnect.R
+.bash_history
+# Playground for testing
+archive
+# RStudio config in Docker
+.cache
+.config
+.local
+.rstudio
+# RStudio project config
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.config
+argos-shiny-app.zip
+# Dataset
+argos/dataset/*
+argos/www/*
+credentials.R

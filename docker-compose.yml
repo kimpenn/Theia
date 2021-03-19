@@ -1,0 +1,11 @@
+version: "3.9"
+services: 
+  theia-server:
+    build: .
+    network_mode: host
+    ports: 
+      - "3838:3838"
+    environment: 
+      - PASSWORD=chad
+    volumes: 
+      - .:/home/rstudio
