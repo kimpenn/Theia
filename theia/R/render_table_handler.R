@@ -20,18 +20,19 @@ update_table_handler <-
                `level-1` == l1)[["Field"]]
     }
     
-    col_selected <- c(INDEX_COL, col_selected)
+    col_selected <- c(INDEX_COL, EXP_COL, col_selected)
     the_table <-
       metadata_table[, colnames(metadata_table) %in% col_selected]
-    renderDataTable({
-      datatable(
-        the_table,
+    DT::renderDataTable({
+      DT::datatable(
+        the_table %>% select(INDEX_COL, EXP_COL, everything()),
         extensions = c('FixedColumns', 'Scroller'),
         options = list(
           autoWidth = FALSE,
-          # dom = 'ft',
-          scroller = TRUE,
-          scrollX = TRUE,
+          pageLength = 20,
+          # TODO: This is really annoying....
+          # scroller = TRUE,
+          # scrollX = TRUE,
           fixedColumns = list(leftColumns = 2)
         )
       )

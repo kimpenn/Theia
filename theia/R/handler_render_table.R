@@ -20,7 +20,8 @@ update_table_handler <-
                `level-1` == l1)[["Field"]]
     }
     
-    col_selected <- c(INDEX_COL, col_selected)
+    col_selected <- c(INDEX_COL, EXP_COL, col_selected)
+    
     the_table <-
       metadata_table[, colnames(metadata_table) %in% col_selected]
     renderDataTable({

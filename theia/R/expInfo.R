@@ -50,7 +50,8 @@ expInfo <- function(id, metadataTable) {
       metadata_table <- metadataTable()
       col_selected <-
         filter(THEIA_CONFIG, `level-1` == "exp-info")[["Field"]]
-      col_selected <- c(INDEX_COL, col_selected)
+      col_selected <- c(INDEX_COL, EXP_COL, col_selected)
+      
       theTable(metadata_table[, colnames(metadata_table) %in% col_selected])
     })
     
@@ -66,7 +67,8 @@ expInfo <- function(id, metadataTable) {
       
       output$tbl <- renderDataTable({
         datatable(
-          the_table, extensions = 'FixedColumns',
+          the_table %>% select(INDEX_COL, EXP_COL, everything()),
+          extensions = 'FixedColumns',
           options = list(
             scrollY = TRUE,
             autoWidth = TRUE,

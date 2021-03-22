@@ -1,6 +1,7 @@
 server <- function(input, output) {
   metadataTable <- uploadFile("uploadFile")
   
+  qualityControl("qualityControl", metadataTable)
   expInfo("expInfo", metadataTable)
   star("star", metadataTable)
   verse("verse", metadataTable)

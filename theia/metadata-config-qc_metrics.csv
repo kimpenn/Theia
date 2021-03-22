@@ -1,0 +1,9 @@
+Field,numInputId,reactiveValName,default,is_larger_than_bad_sample
+STAR.Tot Reads After Trim,tot_reads_after_trim,totReadsAfterTrim,1000000,TRUE
+STAR.Uniq-mapped Reads,uniq_mapped_reads,uniqMapperReads,1000000,TRUE
+STAR.Uniq-mapped Perc,uniq_mapped_perc,uniqMappedPerc,0,TRUE
+STAR.Multi-mapped Perc,multi_mapped_perc,multiMappedPerc,100,FALSE
+STAR.Not-mapped Perc,not_mapped_perc,notMappedPerc,8,FALSE
+STAR.Perc Bases Mismatched,perc_bases_mismatched,percBasesMismatched,100,FALSE
+"VERSE.exons Level 1,2: non-SpikeIn Reads Counted",exon_level_1_2,exonLevel12,400000,TRUE
+BLAST.Perc Counted,blast_perc_counted,blastPercCounted,0,TRUE
